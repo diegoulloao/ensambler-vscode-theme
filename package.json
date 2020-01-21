@@ -1,0 +1,21 @@
+{
+    "name": "emblr",
+    "displayName": "Ensambler",
+    "description": "Ensambler visual studio custom theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ensambler",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ensambler-color-theme.json"
+            }
+        ]
+    }
+}
