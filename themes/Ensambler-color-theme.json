@@ -20,18 +20,19 @@
 		*/
 		"activityBar.background": "#121212",
 		"activityBar.foreground": "#1fbda2",
-		"activityBar.inactiveForeground": "#666",
-		"activityBarBadge.background": "#4d78cc",	//?
-		"activityBarBadge.foreground": "#f8fafd",	//?
+		"activityBar.inactiveForeground": "#fff",
+		// Badges: numeros tipos notificaciones
+		"activityBarBadge.background": "#1fbda2",
+		"activityBarBadge.foreground": "#000",
 
 
 		/**
 		*
-		*	Colores de sidebar izquierda
+		*	Colores de Sidebar izquierda
 		*
 		*/
 		"sideBar.background": "#000",
-		"sideBar.foreground": "#666",
+		"sideBar.foreground": "#fff",
 
 		"sideBarTitle.foreground": "#1fbda2",
 		"sideBarSectionHeader.background": "#0c152800",	//?
@@ -45,11 +46,12 @@
 		*/
 		"tab.activeBackground": "#000",
 		"tab.activeBorderTop": "#1fbda2",
-		"tab.activeForeground": "#666",
+		"tab.activeForeground": "#fff",
 		"tab.border": "#000",
+		// "tab.activeBorder": "#1fbda2",
 		"tab.hoverBackground": "#121212",
 		"tab.inactiveBackground": "#000",
-		"tab.inactiveForeground": "#666",
+		"tab.inactiveForeground": "#fff",
 
 
 		/**
@@ -57,10 +59,10 @@
 		*	Colores de los Breadcumps ubicada bajo tabs
 		*
 		*/
-		"breadcrumb.background": "#121212",
+		"breadcrumb.background": "#000",
 		"breadcrumb.foreground": "#666",
 		"breadcrumb.focusForeground": "#f8f8f8",
-		// "breadcrumb.activeSelectionForeground": "#e0e0e0",
+		"breadcrumb.activeSelectionForeground": "#fff",
 
 		"breadcrumbPicker.background": "#000",
 
@@ -126,15 +128,9 @@
 		"panel.background": "#121212",
 		"panel.border": "#1fbda2",
 
-
-		/**
-		*
-		*	Colores de elementos interiores del panel inferior
-		*
-		*/
 		"panelTitle.activeBorder": "#1fbda2",
 		"panelTitle.activeForeground": "#1fbda2",
-		"panelTitle.inactiveForeground": "#666",
+		"panelTitle.inactiveForeground": "#fff",
 
 
 		"peekViewEditor.matchHighlightBackground": "#29244b",
@@ -194,7 +190,7 @@
 		"statusBar.foreground": "#000",
 		"statusBar.noFolderBackground": "#080d1ab3",
 		"statusBar.noFolderForeground": "#ffffff00",
-		"statusBarItem.hoverBackground": "#fff",
+		"statusBarItem.hoverBackground": "#1ba891",
 
 
 		// ?
@@ -1034,7 +1030,7 @@
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#6DFEDF"
+				"foreground": "#fff"
 			}
 		},
 		{
