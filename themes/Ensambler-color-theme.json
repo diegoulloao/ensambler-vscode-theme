@@ -37,6 +37,7 @@
 		"sideBarTitle.foreground": "#2de0a7",
 		"sideBarSectionHeader.background": "#0c152800",	//?
 		"sideBarSectionHeader.foreground": "#ffffffcc",	//?
+		// "sideBar.border": "#121212",
 
 
 		/**
@@ -426,7 +427,7 @@
 			"name": "punctuation.definition",
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
-				"foreground": "#6DFEDF"
+				"foreground": "#666"
 			}
 		},
 		{
@@ -512,7 +513,7 @@
 			"name": "js/ts punctuation separator key-value",
 			"scope": "punctuation.separator.key-value",
 			"settings": {
-				"foreground": "#bbbbbb"
+				"foreground": "#666"
 			}
 		},
 		{
@@ -968,7 +969,7 @@
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"foreground": "#ED4781"
+				"foreground": "#f92672ff"
 			}
 		},
 		{
@@ -1024,7 +1025,7 @@
 			"name": "Meta tag",
 			"scope": "meta.tag",
 			"settings": {
-				"foreground": "#F1EFF7"
+				"foreground": "#666"
 			}
 		},
 		{
@@ -1087,7 +1088,8 @@
 			"name": "Tags",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#66D9EF"
+				"foreground": "#66D9EF",
+				"fontStyle": "bold",
 			}
 		},
 		{
