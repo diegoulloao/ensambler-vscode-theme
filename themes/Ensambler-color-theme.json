@@ -8,9 +8,9 @@
 		*	GENERALES
 		*
 		*/
-		"focusBorder": "#1fbda2",
-		"foreground": "#1fbda2",
-		"badge.foreground": "#1fbda2",
+		"focusBorder": "#2de0a7",
+		"foreground": "#2de0a7",
+		"badge.foreground": "#2de0a7",
 
 
 		/**
@@ -19,10 +19,10 @@
 		*
 		*/
 		"activityBar.background": "#121212",
-		"activityBar.foreground": "#1fbda2",
+		"activityBar.foreground": "#2de0a7",
 		"activityBar.inactiveForeground": "#fff",
 		// Badges: numeros tipos notificaciones
-		"activityBarBadge.background": "#1fbda2",
+		"activityBarBadge.background": "#2de0a7",
 		"activityBarBadge.foreground": "#000",
 
 
@@ -34,7 +34,7 @@
 		"sideBar.background": "#000",
 		"sideBar.foreground": "#fff",
 
-		"sideBarTitle.foreground": "#1fbda2",
+		"sideBarTitle.foreground": "#2de0a7",
 		"sideBarSectionHeader.background": "#0c152800",	//?
 		"sideBarSectionHeader.foreground": "#ffffffcc",	//?
 
@@ -45,10 +45,10 @@
 		*
 		*/
 		"tab.activeBackground": "#000",
-		"tab.activeBorderTop": "#1fbda2",
+		"tab.activeBorderTop": "#2de0a7",
 		"tab.activeForeground": "#fff",
 		"tab.border": "#000",
-		// "tab.activeBorder": "#1fbda2",
+		// "tab.activeBorder": "#2de0a7",
 		"tab.hoverBackground": "#121212",
 		"tab.inactiveBackground": "#000",
 		"tab.inactiveForeground": "#fff",
@@ -60,7 +60,7 @@
 		*
 		*/
 		"breadcrumb.background": "#000",
-		"breadcrumb.foreground": "#666",
+		"breadcrumb.foreground": "#2de0a7",
 		"breadcrumb.focusForeground": "#f8f8f8",
 		"breadcrumb.activeSelectionForeground": "#fff",
 
@@ -100,7 +100,7 @@
 		"editor.wordHighlightBackground": "#484e5b",	//?
 		"editor.wordHighlightStrongBackground": "#484e5b",
 		"editorCursor.background": "#ffffff",	//?
-		"editorCursor.foreground": "#1fbda2",
+		"editorCursor.foreground": "#2de0a7",
 		"editorError.foreground": "#c24038",
 		"editorGroup.border": "#181a1f",
 		"editorGroupHeader.noTabsBackground": "#fefefe3a",
@@ -108,7 +108,7 @@
 		"editorHoverWidget.background": "#141421",
 		"editorHoverWidget.border": "#378070",
 		"editorIndentGuide.background": "#333",
-		"editorLineNumber.foreground": "#333",
+		"editorLineNumber.foreground": "#2de0a73a",
 		"editorMarkerNavigation.background": "#161626",
 		"editorOverviewRuler.border": "#00000000",
 		"editorRuler.foreground": "#333454",
@@ -126,10 +126,10 @@
 		*
 		*/
 		"panel.background": "#121212",
-		"panel.border": "#1fbda2",
+		"panel.border": "#2de0a7",
 
-		"panelTitle.activeBorder": "#1fbda2",
-		"panelTitle.activeForeground": "#1fbda2",
+		"panelTitle.activeBorder": "#2de0a7",
+		"panelTitle.activeForeground": "#2de0a7",
 		"panelTitle.inactiveForeground": "#fff",
 
 
@@ -141,9 +141,10 @@
 		*	Colores de scrollbar en sidebar izquierda y barra scroll código derecha
 		*
 		*/
-		"scrollbarSlider.activeBackground": "#747d9180",
-		"scrollbarSlider.background": "#1fbda2",
-		"scrollbarSlider.hoverBackground": "#4a4a4a21",
+		"scrollbarSlider.activeBackground": "#333",
+		"scrollbarSlider.background": "#2de0a7",
+		"scrollbarSlider.hoverBackground": "#2de0a7",
+		// "scrollbar.shadow": "#2de0a77a",
 
 
 		/**
@@ -151,10 +152,10 @@
 		*	Colores del widget de Terminal embebido
 		*
 		*/
-		"terminal.background": "#121212",
+		"terminal.background": "#000",
 		"terminal.foreground": "#666",
 		
-		"terminalCursor.foreground": "#1fbda2",
+		"terminalCursor.foreground": "#2de0a7",
 
 		"terminal.ansiCyan": "#",
 		"terminal.ansiGreen": "#",
@@ -165,7 +166,7 @@
 		"terminal.ansiMagenta": "#",
 		"terminal.ansiRed": "#",
 		"terminal.ansiBrightBlack": "#",
-		"terminal.ansiBrightBlue": "#1fbda2",
+		"terminal.ansiBrightBlue": "#2de0a7",
 		"terminal.ansiBrightCyan": "#",
 		"terminal.ansiBrightGreen": "#",
 		"terminal.ansiBrightMagenta": "#",
@@ -184,13 +185,13 @@
 		*	(lenguaje, rama git, conexion bd, lineas del archivo, etc)
 		*
 		*/
-		"statusBar.background": "#1fbda2",
+		"statusBar.background": "#2de0a7",
 		"statusBar.debuggingBackground": "#080d1ab3",
 		"statusBar.debuggingForeground": "#ffffff00",
 		"statusBar.foreground": "#000",
 		"statusBar.noFolderBackground": "#080d1ab3",
 		"statusBar.noFolderForeground": "#ffffff00",
-		"statusBarItem.hoverBackground": "#1ba891",
+		"statusBarItem.hoverBackground": "#28c795",
 
 
 		// ?
@@ -211,7 +212,7 @@
 		"list.activeSelectionBackground": "#a8a8a800",	//?
 		"list.activeSelectionForeground": "#d7dae0",	//?
 		"list.focusBackground": "#333",
-		"list.highlightForeground": "#1fbda2",
+		"list.highlightForeground": "#2de0a7",
 		"list.hoverBackground": "#a8a8a810",
 		"list.inactiveSelectionBackground": "#a8a8a800",
 		"list.inactiveSelectionForeground": "#d7dae0",
@@ -236,7 +237,7 @@
 		"input.placeholderForeground": "#333",
 
 		// Colores select:dropdown del editor
-		"dropdown.background": "#1fbda2",
+		"dropdown.background": "#2de0a7",
 		"dropdown.foreground": "#000",
 		"dropdown.border": "#000",
 
