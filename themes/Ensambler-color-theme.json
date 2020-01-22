@@ -96,7 +96,7 @@
 		"editor.foreground": "#f8f8f8",
 		"editor.hoverHighlightBackground": "#4a4a4a0a",
 		"editor.lineHighlightBackground": "#000",
-		"editor.selectionBackground": "#333",
+		"editor.selectionBackground": "#2de0a7",
 		"editor.selectionHighlightBackground": "#333",
 		"editor.wordHighlightBackground": "#484e5b",	//?
 		"editor.wordHighlightStrongBackground": "#484e5b",
