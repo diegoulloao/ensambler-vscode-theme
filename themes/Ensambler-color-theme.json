@@ -1,23 +1,93 @@
 {
 	"name": "Ensambler",
 	"type": "dark",
+	
 	"colors": {
-		"activityBar.background": "#000",
+		/**
+		*
+		*	GENERALES
+		*
+		*/
+		"focusBorder": "#1fbda2",
+		"foreground": "#1fbda2",
+		"badge.foreground": "#1fbda2",
+
+
+		/**
+		*
+		*	Colores de navegador de acciones al lado izquierdo del sidebar
+		*
+		*/
+		"activityBar.background": "#121212",
 		"activityBar.foreground": "#1fbda2",
 		"activityBar.inactiveForeground": "#666",
 		"activityBarBadge.background": "#4d78cc",	//?
 		"activityBarBadge.foreground": "#f8fafd",	//?
 
-		"badge.background": "#ff000000",			//?
+
+		/**
+		*
+		*	Colores de sidebar izquierda
+		*
+		*/
+		"sideBar.background": "#000",
+		"sideBar.foreground": "#666",
+
+		"sideBarTitle.foreground": "#1fbda2",
+		"sideBarSectionHeader.background": "#0c152800",	//?
+		"sideBarSectionHeader.foreground": "#ffffffcc",	//?
+
+
+		/**
+		*
+		*	Colores de Tabs de archivos abiertos
+		*
+		*/
+		"tab.activeBackground": "#000",
+		"tab.activeBorderTop": "#1fbda2",
+		"tab.activeForeground": "#666",
+		"tab.border": "#000",
+		"tab.hoverBackground": "#121212",
+		"tab.inactiveBackground": "#000",
+		"tab.inactiveForeground": "#666",
+
+
+		/**
+		*
+		*	Colores de los Breadcumps ubicada bajo tabs
+		*
+		*/
 		"breadcrumb.background": "#121212",
-		"button.background": "#404754",				//?
-		"debugToolBar.background": "#161626",		//?
+		"breadcrumb.foreground": "#666",
+		"breadcrumb.focusForeground": "#f8f8f8",
+		// "breadcrumb.activeSelectionForeground": "#e0e0e0",
+
+		"breadcrumbPicker.background": "#000",
+
+
+		"badge.background": "#ff000000",					//?
+		"button.background": "#404754",						//?
+		"debugToolBar.background": "#161626",				//?
 		"diffEditor.insertedTextBackground": "#00809b33",	//?
 
-		"dropdown.background": "#1fbda2",
-		"dropdown.foreground": "#000",
-		"dropdown.border": "#000",
+
+		/**
+		*
+		*	Colores número líneas del código
+		*
+		*/
+		"editorGutter.background": "#121212",
+		//"editorGutter.addedBackground": "#587c0c",
+		//"editorGutter.commentRangeForeground": "#c5c5c5",
+		//"editorGutter.deletedBackground": "#94151b",
+		//"editorGutter.modifiedBackground": "#0c7d9d",
 		
+
+		/**
+		*
+		*	Colores de elementos del editor de texto (no del esquema de colores del código)
+		*
+		*/
 		"editor.background": "#121212",
 		"editor.findMatchHighlightBackground": "#333",
 		"editor.foreground": "#f8f8f8",
@@ -35,8 +105,8 @@
 		"editorGroupHeader.tabsBackground": "#000",
 		"editorHoverWidget.background": "#141421",
 		"editorHoverWidget.border": "#378070",
-		"editorIndentGuide.background": "#1fbda2",
-		"editorLineNumber.foreground": "#666",
+		"editorIndentGuide.background": "#333",
+		"editorLineNumber.foreground": "#333",
 		"editorMarkerNavigation.background": "#161626",
 		"editorOverviewRuler.border": "#00000000",
 		"editorRuler.foreground": "#333454",
@@ -44,32 +114,80 @@
 		"editorSuggestWidget.border": "#00000000",
 		"editorSuggestWidget.selectedBackground": "#ffffff09",
 		"editorWhitespace.foreground": "#3b4048",
-		"editorWidget.background": "#ff000000",
 
-		"input.background": "#000",
 
-		"list.activeSelectionBackground": "#a8a8a800",
-		"list.activeSelectionForeground": "#d7dae0",
-		"list.focusBackground": "#171726",
-		"list.highlightForeground": "#c5c5c5",
-		"list.hoverBackground": "#a8a8a810",
-		"list.inactiveSelectionBackground": "#a8a8a800",
-		"list.inactiveSelectionForeground": "#d7dae0",
-
-		"panel.background": "#100d1f72",
+		/**
+		*
+		*	Colores del panel inferior
+		*
+		*	(terminal - debug - output)
+		*
+		*/
+		"panel.background": "#121212",
 		"panel.border": "#1fbda2",
+
+
+		/**
+		*
+		*	Colores de elementos interiores del panel inferior
+		*
+		*/
+		"panelTitle.activeBorder": "#1fbda2",
+		"panelTitle.activeForeground": "#1fbda2",
+		"panelTitle.inactiveForeground": "#666",
+
 
 		"peekViewEditor.matchHighlightBackground": "#29244b",
 
+
+		/**
+		*
+		*	Colores de scrollbar en sidebar izquierda y barra scroll código derecha
+		*
+		*/
 		"scrollbarSlider.activeBackground": "#747d9180",
 		"scrollbarSlider.background": "#1fbda2",
 		"scrollbarSlider.hoverBackground": "#4a4a4a21",
 
-		"sideBar.background": "#000",
-		"sideBar.foreground": "#fff",
-		"sideBarSectionHeader.background": "#0c152800",
-		"sideBarSectionHeader.foreground": "#ffffffcc",
 
+		/**
+		*
+		*	Colores del widget de Terminal embebido
+		*
+		*/
+		"terminal.background": "#121212",
+		"terminal.foreground": "#666",
+		
+		"terminalCursor.foreground": "#1fbda2",
+
+		"terminal.ansiCyan": "#",
+		"terminal.ansiGreen": "#",
+		"terminal.ansiYellow": "#",
+		"terminal.ansiBlack": "#",
+		"terminal.ansiWhite": "#",
+		"terminal.ansiBlue": "#",
+		"terminal.ansiMagenta": "#",
+		"terminal.ansiRed": "#",
+		"terminal.ansiBrightBlack": "#",
+		"terminal.ansiBrightBlue": "#1fbda2",
+		"terminal.ansiBrightCyan": "#",
+		"terminal.ansiBrightGreen": "#",
+		"terminal.ansiBrightMagenta": "#",
+		"terminal.ansiBrightRed": "#",
+		"terminal.ansiBrightWhite": "#f8f8f8",
+		"terminal.ansiBrightYellow": "#f8f8f8",
+
+		// "terminal.selectionBackground": "#33333377",
+		// "terminal.border": "#fff000",
+
+
+		/**
+		*
+		*	Colores de statusbar al fondo del editor
+		*
+		*	(lenguaje, rama git, conexion bd, lineas del archivo, etc)
+		*
+		*/
 		"statusBar.background": "#1fbda2",
 		"statusBar.debuggingBackground": "#080d1ab3",
 		"statusBar.debuggingForeground": "#ffffff00",
@@ -78,37 +196,56 @@
 		"statusBar.noFolderForeground": "#ffffff00",
 		"statusBarItem.hoverBackground": "#fff",
 
-		"tab.activeBackground": "#121212",
-		"tab.activeBorderTop": "#1fbda2",
-		"tab.activeForeground": "#666",
-		"tab.border": "#000",
-		"tab.hoverBackground": "#121212",
-		"tab.inactiveBackground": "#000",
-		"tab.inactiveForeground": "#333",
 
-		"terminal.ansiCyan": "#00d0ff",
-		"terminal.ansiGreen": "#c82fbd",
-		"terminal.ansiYellow": "#4cde7f",
-		"terminal.background": "#000",
-		"terminal.foreground": "#666",
-		"terminalCursor.foreground": "#1fbda2",
-
+		// ?
 		"titleBar.activeBackground": "#100d1f72",
 		"titleBar.activeForeground": "#fff",
 		"titleBar.inactiveBackground": "#100d1f72",
 		"titleBar.inactiveForeground": "#ffffff00",
+		// ?
 
-		"activityBar.dropBackground": "#ffffff1f",
+		"activityBar.dropBackground": "#ffffff1f",	//?
 
-		"badge.foreground": "#1fbda2",
 
-		// "breadcrumb.activeSelectionForeground": "#e0e0e0",
-		"breadcrumb.focusForeground": "#f8f8f8",
-		"breadcrumb.foreground": "#666",
+		/**
+		*
+		*	Colores control de atajos de vscode (Command + shift + p)
+		*
+		*/
+		"list.activeSelectionBackground": "#a8a8a800",	//?
+		"list.activeSelectionForeground": "#d7dae0",	//?
+		"list.focusBackground": "#333",
+		"list.highlightForeground": "#1fbda2",
+		"list.hoverBackground": "#a8a8a810",
+		"list.inactiveSelectionBackground": "#a8a8a800",
+		"list.inactiveSelectionForeground": "#d7dae0",
 
-		"breadcrumbPicker.background": "#000",
 
-		// "button.foreground": "#ffffff",
+		/**
+		*
+		*	OTROS
+		*
+		*/
+
+		// Color al arrastrar una ventana de columna
+		"editorGroup.dropBackground": "#00000080",
+
+		// Colores de widgets flotantes sobre el editor (como buscar: Command + f)
+		"widget.shadow": "#00000000",
+		"editorWidget.background": "#121212",
+
+		// Colores input:text del editor
+		"input.background": "#000",
+		"input.foreground": "#f8f8f8",
+		"input.placeholderForeground": "#333",
+
+		// Colores select:dropdown del editor
+		"dropdown.background": "#1fbda2",
+		"dropdown.foreground": "#000",
+		"dropdown.border": "#000",
+
+
+		//"button.foreground": "#ffffff",
 		//"button.hoverBackground": "#4d5565",
 
 		//"debugExceptionWidget.background": "#420b0d",
@@ -131,13 +268,6 @@
 		//"editorBracketMatch.background": "#0064001a",
 		//"editorBracketMatch.border": "#888888",
 		//"editorCodeLens.foreground": "#999999",
-		//"editorGroup.dropBackground": "#53595d80",
-
-		//"editorGutter.addedBackground": "#587c0c",
-		"editorGutter.background": "#121212",
-		//"editorGutter.commentRangeForeground": "#c5c5c5",
-		//"editorGutter.deletedBackground": "#94151b",
-		//"editorGutter.modifiedBackground": "#0c7d9d",
 
 		//"editorHint.foreground": "#eeeeeeb3",
 		//"editorIndentGuide.activeBackground": "#3b4048",
@@ -182,10 +312,6 @@
 		//"extensionButton.prominentForeground": "#ffffff",
 		//"extensionButton.prominentHoverBackground": "#28632b",
 
-		//"focusBorder": "#0e639ccc",
-
-		"foreground": "#1fbda2",
-
 		// "gitDecoration.addedResourceForeground": "#81b88b",
 		//"gitDecoration.conflictingResourceForeground": "#6c6cc4",
 		//"gitDecoration.deletedResourceForeground": "#c74e39",
@@ -193,10 +319,6 @@
 		//"gitDecoration.modifiedResourceForeground": "#e2c08d",
 		//"gitDecoration.submoduleResourceForeground": "#8db9e2",
 		// "gitDecoration.untrackedResourceForeground": "#73c991",
-
-		"input.foreground": "#f8f8f8",
-
-		"input.placeholderForeground": "#333",
 
 		//"inputOption.activeBorder": "#007acc",
 
@@ -235,10 +357,6 @@
 		//"notifications.border": "#ff4d4d00",
 
 		//"panel.dropBackground": "#ffffff1f",
-
-		"panelTitle.activeBorder": "#1fbda2",
-		"panelTitle.activeForeground": "#1fbda2",
-		"panelTitle.inactiveForeground": "#666",
 
 		//"peekView.border": "#007acc",
 
@@ -282,8 +400,6 @@
 
 		//"sideBar.dropBackground": "#ffffff1f",
 
-		"sideBarTitle.foreground": "#1fbda2",
-
 		//"statusBarItem.activeBackground": "#ffffff2e",
 		//"statusBarItem.prominentBackground": "#388a34",
 		//"statusBarItem.prominentHoverBackground": "#369432",
@@ -297,22 +413,6 @@
 		//"tab.unfocusedInactiveForeground": "#ffffff43",
 		//"tab.unfocusedInactiveModifiedBorder": "#3399cc40",
 
-		//"terminal.ansiBlack": "#000000",
-		//"terminal.ansiBlue": "#2472c8",
-		//"terminal.ansiBrightBlack": "#666666",
-		//"terminal.ansiBrightBlue": "#3b8eea",
-		//"terminal.ansiBrightCyan": "#29b8db",
-		//"terminal.ansiBrightGreen": "#23d18b",
-		//"terminal.ansiBrightMagenta": "#d670d6",
-		//"terminal.ansiBrightRed": "#f14c4c",
-		//"terminal.ansiBrightWhite": "#e5e5e5",
-		//"terminal.ansiBrightYellow": "#f5f543",
-		//"terminal.ansiMagenta": "#bc3fbc",
-		//"terminal.ansiRed": "#cd3131",
-		//"terminal.ansiWhite": "#e5e5e5",
-		//"terminal.border": "#00000000",
-		//"terminal.selectionBackground": "#ffffff40",
-
 		//"textBlockQuote.background": "#7f7f7f1a",
 		//"textBlockQuote.border": "#007acc80",
 		//"textCodeBlock.background": "#0a0a0a66",
@@ -323,8 +423,6 @@
 		//"textPreformat.foreground": "#d7ba7d",
 
 		//"textSeparator.foreground": "#ffffff2e",
-
-		//"widget.shadow": "#000000"
 	},
 
 	"tokenColors": [{
@@ -585,7 +683,8 @@
 			"name": "comment",
 			"scope": "comment.line.double-slash,comment.block.documentation",
 			"settings": {
-				"fontStyle": "normal"
+				"fontStyle": "",
+				"foreground": "#666"
 			}
 		},
 		{
