@@ -32,7 +32,7 @@
 		*
 		*/
 		"sideBar.background": "#000",
-		"sideBar.foreground": "#fff",
+		"sideBar.foreground": "#2de0a7",
 
 		"sideBarTitle.foreground": "#2de0a7",
 		"sideBarSectionHeader.background": "#0c152800",	//?
@@ -153,7 +153,7 @@
 		*
 		*/
 		"terminal.background": "#000",
-		"terminal.foreground": "#666",
+		"terminal.foreground": "#fff",
 		
 		"terminalCursor.foreground": "#2de0a7",
 
