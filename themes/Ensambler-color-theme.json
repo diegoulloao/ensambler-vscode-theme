@@ -1,7 +1,7 @@
 {
 	"name": "Ensambler",
 	"type": "dark",
-	
+
 	"colors": {
 		/**
 		*
@@ -105,7 +105,7 @@
 		"editorError.foreground": "#c24038",
 		"editorGroup.border": "#181a1f",
 		"editorGroupHeader.noTabsBackground": "#fefefe3a",
-		"editorGroupHeader.tabsBackground": "#121212",
+		"editorGroupHeader.tabsBackground": "#000",
 		"editorHoverWidget.background": "#141421",
 		"editorHoverWidget.border": "#378070",
 		"editorIndentGuide.background": "#333",
