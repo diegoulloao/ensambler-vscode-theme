@@ -1,13 +1,34 @@
-# README
-## This is the README for your extension "emblr"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Ensambler Theme
+## A beautiful vscode theme for Ensambler®
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+* Beauty and technologic
+* Elegant and fresh
+* Vivid and opaque colors
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+**The choose for those who likes build the future from their keyboards**
+
+![Imgur](https://i.imgur.com/w1t8YOy.png)
+[view outside](https://i.imgur.com/w1t8YOy.png)
+
+### Installation
+1. Browse for your vscode extensions directory, then clone the project
+
+    **If you're macOs or Linux user:**
+
+    ```
+    git clone git@github.com:diegoulloao/ensambler-vscode-theme.git ~/.vscode/extensions
+    ```
+
+    **If you're Windows user:**
+
+    ```
+    git clone git@github.com:diegoulloao/ensambler-vscode-theme.git %USERPROFILE%\.vscode\extensions
+    ```
+
+2. Press `Command + K + B` keys and search for: **Ensambler**
 
 **Enjoy!**
+
+--
+
+**Developed with love by @diegoulloao :heartpulse:**
