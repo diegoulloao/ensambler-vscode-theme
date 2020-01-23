@@ -331,7 +331,7 @@
 		//"list.errorForeground": "#f88070",
 		//"list.inactiveFocusBackground": "#313135",
 		//"list.invalidItemForeground": "#b89500",
-		//"list.warningForeground": "#4d9e4d",
+		"list.warningForeground": "#2de0a7",
 
 		//"menu.background": "#161522",
 		//"menu.foreground": "#f0f0f0",
