@@ -160,7 +160,7 @@
 
 		"terminal.ansiCyan": "#",
 		"terminal.ansiGreen": "#",
-		"terminal.ansiYellow": "#",
+		"terminal.ansiYellow": "#2de0a7",
 		"terminal.ansiBlack": "#",
 		"terminal.ansiWhite": "#",
 		"terminal.ansiBlue": "#",
@@ -168,12 +168,12 @@
 		"terminal.ansiRed": "#",
 		"terminal.ansiBrightBlack": "#",
 		"terminal.ansiBrightBlue": "#2de0a7",
-		"terminal.ansiBrightCyan": "#",
-		"terminal.ansiBrightGreen": "#",
+		"terminal.ansiBrightCyan": "#ffdb7d",
+		"terminal.ansiBrightGreen": "#2de0a7",
 		"terminal.ansiBrightMagenta": "#",
-		"terminal.ansiBrightRed": "#",
+		"terminal.ansiBrightRed": "#effeb0",
 		"terminal.ansiBrightWhite": "#f8f8f8",
-		"terminal.ansiBrightYellow": "#f8f8f8",
+		"terminal.ansiBrightYellow": "#ffdb7d",
 
 		// "terminal.selectionBackground": "#33333377",
 		// "terminal.border": "#fff000",
@@ -192,7 +192,7 @@
 		"statusBar.foreground": "#000",
 		"statusBar.noFolderBackground": "#080d1ab3",
 		"statusBar.noFolderForeground": "#ffffff00",
-		"statusBarItem.hoverBackground": "#28c795",
+		"statusBarItem.hoverBackground": "#26bd8d",
 
 
 		// ?
@@ -665,9 +665,16 @@
 	},
 	{
 		"name": "js variable readwrite",
-		"scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.node",
+		"scope": "variable.other.readwrite,support.variable.property,support.variable.object.node",
 		"settings": {
-			"foreground": "#00a0a4"
+			"foreground": "#66d9ef"
+		}
+	},
+	{
+		"name": "js attribute obj",
+		"scope": "meta.object-literal.key",
+		"settings": {
+			"foreground": "#777"
 		}
 	},
 	{
@@ -864,7 +871,7 @@
 		"name": "Variables",
 		"scope": "variable",
 		"settings": {
-			"foreground": "#00a0a4"
+			"foreground": "#effeb0"
 		}
 	},
 	{
@@ -1097,7 +1104,8 @@
 		"name": "Attributes",
 		"scope": "entity.other.attribute-name",
 		"settings": {
-			"foreground": "#F92672"
+			"foreground": "#F92672",
+			"fontStyle": "italic"
 		}
 	},
 	{
@@ -1290,8 +1298,8 @@
 		"name": "Embedded",
 		"scope": "punctuation.section.embedded, variable.interpolation",
 		"settings": {
-			"foreground": "#00a0a4",
-			"fontStyle": "bold"
+			"foreground": "#666",
+			// "fontStyle": "bold"
 		}
 	},
 	{
@@ -1442,7 +1450,7 @@
 		"name": "php function-resets",
 		"scope": "punctuation.definition.parameters.begin.bracket.round.php,punctuation.definition.parameters.end.bracket.round.php,punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.end.bracket.round.php,punctuation.definition.array.begin.bracket.round.php,punctuation.definition.array.end.bracket.round.php,punctuation.definition.begin.bracket.round.php,punctuation.definition.end.bracket.round.php,punctuation.definition.begin.bracket.curly.php,punctuation.definition.end.bracket.curly.php",
 		"settings": {
-			"foreground": "#bbbbbb"
+			"foreground": "#666"
 		}
 	},
 	{
@@ -1484,7 +1492,7 @@
 		"name": "php dollar sign",
 		"scope": "punctuation.definition.variable.php",
 		"settings": {
-			"foreground": "#00a0a4"
+			"foreground": "#effeb0"
 		}
 	},
 	{
