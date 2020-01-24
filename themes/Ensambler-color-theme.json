@@ -1632,7 +1632,7 @@
 			"foreground": "#b267e6"
 		}
 	},{
-		"scope": "punctuation.definition.parameters.begin.js, punctuation.definition.block.js, meta.parameters.js, meta.brace.round.js, punctuation.terminator.statement.js",
+		"scope": "punctuation.definition.parameters.begin.js, punctuation.definition.block.js, meta.parameters.js, meta.brace.round.js, punctuation.terminator.statement.js, meta.brace.square.js",
 		"settings": {
 			"foreground": "#666"
 		}
@@ -1645,6 +1645,12 @@
 		"scope": "punctuation.section.property-list.begin.bracket.curly.css, punctuation.section.property-list.end.bracket.curly.css, punctuation.terminator.rule.css",
 		"settings": {
 			"foreground": "#666"
+		}
+	}, {
+		"scope": "variable.parameter.js",
+		"settings": {
+			"foreground": "#effeb0",
+			"fontStyle": ""
 		}
 	}
 ]
