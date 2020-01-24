@@ -68,8 +68,7 @@
 		"breadcrumbPicker.background": "#000",
 
 
-		"badge.background": "#ff000000",					//?
-		"button.background": "#404754",						//?
+		"badge.background": "#ff000000",
 		"debugToolBar.background": "#161626",				//?
 		"diffEditor.insertedTextBackground": "#00809b33",	//?
 
@@ -159,7 +158,7 @@
 		"terminalCursor.foreground": "#2de0a7",
 
 		"terminal.ansiCyan": "#",
-		"terminal.ansiGreen": "#",
+		"terminal.ansiGreen": "#effeb0",
 		"terminal.ansiYellow": "#2de0a7",
 		"terminal.ansiBlack": "#",
 		"terminal.ansiWhite": "#",
@@ -171,7 +170,7 @@
 		"terminal.ansiBrightCyan": "#ffdb7d",
 		"terminal.ansiBrightGreen": "#2de0a7",
 		"terminal.ansiBrightMagenta": "#",
-		"terminal.ansiBrightRed": "#effeb0",
+		"terminal.ansiBrightRed": "#de1738",
 		"terminal.ansiBrightWhite": "#f8f8f8",
 		"terminal.ansiBrightYellow": "#ffdb7d",
 
@@ -242,9 +241,10 @@
 		"dropdown.foreground": "#000",
 		"dropdown.border": "#000",
 
-
-		//"button.foreground": "#ffffff",
-		//"button.hoverBackground": "#4d5565",
+		// Colores botones widgets
+		"button.foreground": "#fff",
+		"button.background": "#222",
+		"button.hoverBackground": "#333",
 
 		//"debugExceptionWidget.background": "#420b0d",
 		//"debugExceptionWidget.border": "#a31515",
