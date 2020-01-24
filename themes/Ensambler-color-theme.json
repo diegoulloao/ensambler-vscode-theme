@@ -1471,7 +1471,7 @@
 		"name": "php logical/bitwise operator",
 		"scope": "keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
 		"settings": {
-			"foreground": "#2DE0A7"
+			"foreground": "#f92672"
 		}
 	},
 	{
@@ -1630,6 +1630,21 @@
 		"scope": "token.debug-token",
 		"settings": {
 			"foreground": "#b267e6"
+		}
+	},{
+		"scope": "punctuation.definition.parameters.begin.js, punctuation.definition.block.js, meta.parameters.js, meta.brace.round.js, punctuation.terminator.statement.js",
+		"settings": {
+			"foreground": "#666"
+		}
+	}, {
+		"scope": "punctuation.definition.section.switch-block.begin.bracket.curly.php, punctuation.definition.section.switch-block.end.bracket.curly.php, punctuation.section.array.begin.php, punctuation.section.array.end.php",
+		"settings": {
+			"foreground": "#666"
+		}
+	}, {
+		"scope": "punctuation.section.property-list.begin.bracket.curly.css, punctuation.section.property-list.end.bracket.curly.css, punctuation.terminator.rule.css",
+		"settings": {
+			"foreground": "#666"
 		}
 	}
 ]
