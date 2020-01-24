@@ -674,7 +674,8 @@
 		"name": "js attribute obj",
 		"scope": "meta.object-literal.key",
 		"settings": {
-			"foreground": "#777"
+			"foreground": "#bbb",
+			"fontStyle": "italic"
 		}
 	},
 	{
