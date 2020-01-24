@@ -449,7 +449,7 @@
 		"name": "Comment",
 		"scope": "comment",
 		"settings": {
-			"foreground": "#333",
+			"foreground": "#666",
 			"fontStyle": ""
 		}
 	},
@@ -689,7 +689,7 @@
 		"scope": "comment.line.double-slash,comment.block.documentation",
 		"settings": {
 			"fontStyle": "",
-			"foreground": "#333"
+			"foreground": "#666"
 		}
 	},
 	{
@@ -843,7 +843,7 @@
 		"name": "Punctuation Definition Comment",
 		"scope": "punctuation.definition.comment",
 		"settings": {
-			"foreground": "#333"
+			"foreground": "#666"
 		}
 	},
 	{
@@ -1033,7 +1033,7 @@
 		"name": "Meta tag",
 		"scope": "meta.tag",
 		"settings": {
-			"foreground": "#333"
+			"foreground": "#666"
 		}
 	},
 	{
