@@ -1,7 +1,7 @@
 {
     "name": "emblr",
     "displayName": "Ensambler",
-    "description": "A beautiful vscode theme",
+    "description": "A beautiful vscode theme for Ensambler®",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.41.0"
@@ -14,7 +14,7 @@
             {
                 "label": "Ensambler",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Ensambler-color-theme.json"
+                "path": "./themes/Ensambler-dark-theme.json"
             }
         ]
     }
