@@ -632,7 +632,7 @@
 		"name": "css property-name",
 		"scope": "support.type.vendored.property-name.css, support.type.property-name.css",
 		"settings": {
-			"foreground": "#9f9f9f"
+			"foreground": "#fff"
 		}
 	},
 	{
@@ -674,8 +674,7 @@
 		"name": "js attribute obj",
 		"scope": "meta.object-literal.key",
 		"settings": {
-			"foreground": "#bbb",
-			"fontStyle": "italic"
+			"foreground": "#fff"
 		}
 	},
 	{
