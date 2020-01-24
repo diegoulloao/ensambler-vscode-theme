@@ -23,7 +23,7 @@
 		"activityBar.inactiveForeground": "#fff",
 		// Badges: numeros tipos notificaciones
 		"activityBarBadge.background": "#2de0a7",
-		"activityBarBadge.foreground": "#121212",
+		"activityBarBadge.foreground": "#0e1111",
 
 
 		/**
@@ -31,13 +31,13 @@
 		*	Colores de Sidebar izquierda
 		*
 		*/
-		"sideBar.background": "#121212",
+		"sideBar.background": "#0e1111",
 		"sideBar.foreground": "#fff",
 
 		"sideBarTitle.foreground": "#2de0a7",
 		"sideBarSectionHeader.background": "#0c152800",	//?
 		"sideBarSectionHeader.foreground": "#ffffffcc",	//?
-		// "sideBar.border": "#121212",
+		// "sideBar.border": "#0e1111",
 
 
 		/**
@@ -45,13 +45,13 @@
 		*	Colores de Tabs de archivos abiertos
 		*
 		*/
-		"tab.activeBackground": "#121212",
+		"tab.activeBackground": "#0e1111",
 		// "tab.activeBorderTop": "#2de0a7",
 		"tab.activeForeground": "#fff",
-		"tab.border": "#121212",
+		"tab.border": "#0e1111",
 		"tab.activeBorder": "#2de0a7",
-		"tab.hoverBackground": "#121212",
-		"tab.inactiveBackground": "#121212",
+		"tab.hoverBackground": "#0e1111",
+		"tab.inactiveBackground": "#0e1111",
 		"tab.inactiveForeground": "#fff",
 
 
@@ -60,7 +60,7 @@
 		*	Colores de los Breadcumps ubicada bajo tabs
 		*
 		*/
-		"breadcrumb.background": "#121212",
+		"breadcrumb.background": "#0e1111",
 		"breadcrumb.foreground": "#444",
 		"breadcrumb.focusForeground": "#f8f8f8",
 		"breadcrumb.activeSelectionForeground": "#fff",
@@ -79,7 +79,7 @@
 		*	Colores número líneas del código
 		*
 		*/
-		"editorGutter.background": "#121212",
+		"editorGutter.background": "#0e1111",
 		//"editorGutter.addedBackground": "#587c0c",
 		//"editorGutter.commentRangeForeground": "#c5c5c5",
 		//"editorGutter.deletedBackground": "#94151b",
@@ -91,7 +91,7 @@
 		*	Colores de elementos del editor de texto (no del esquema de colores del código)
 		*
 		*/
-		"editor.background": "#121212",
+		"editor.background": "#0e1111",
 		"editor.findMatchHighlightBackground": "#333",
 		"editor.foreground": "#f8f8f8",
 		"editor.hoverHighlightBackground": "#4a4a4a0a",
@@ -126,7 +126,7 @@
 		*	(terminal - debug - output)
 		*
 		*/
-		"panel.background": "#121212",
+		"panel.background": "#0e1111",
 		"panel.border": "#2de0a7",
 
 		"panelTitle.activeBorder": "#2de0a7",
@@ -153,7 +153,7 @@
 		*	Colores del widget de Terminal embebido
 		*
 		*/
-		"terminal.background": "#121212",
+		"terminal.background": "#0e1111",
 		"terminal.foreground": "#fff",
 		
 		"terminalCursor.foreground": "#2de0a7",
@@ -230,7 +230,7 @@
 
 		// Colores de widgets flotantes sobre el editor (como buscar: Command + f)
 		"widget.shadow": "#00000000",
-		"editorWidget.background": "#121212",
+		"editorWidget.background": "#0e1111",
 
 		// Colores input:text del editor
 		"input.background": "#000",
