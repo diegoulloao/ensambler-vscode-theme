@@ -21,13 +21,13 @@
     **If you're macOs or Linux user:**
 
     ```
-    git clone git@github.com:diegoulloao/ensambler-vscode-theme.git ~/.vscode/extensions
+    git clone git@github.com:diegoulloao/ensambler-vscode-theme.git ~/.vscode/extensions/ensambler-vscode-theme
     ```
 
     **If you're Windows user:**
 
     ```
-    git clone git@github.com:diegoulloao/ensambler-vscode-theme.git %USERPROFILE%\.vscode\extensions
+    git clone git@github.com:diegoulloao/ensambler-vscode-theme.git %USERPROFILE%\.vscode\extensions\ensambler-vscode-theme
     ```
 
 2. Press `Command + K + B` keys and search for: **Ensambler**
