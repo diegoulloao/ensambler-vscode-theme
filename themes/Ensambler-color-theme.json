@@ -632,7 +632,7 @@
 		"name": "css property-name",
 		"scope": "support.type.vendored.property-name.css, support.type.property-name.css",
 		"settings": {
-			"foreground": "#66D9EF"
+			"foreground": "#9f9f9f"
 		}
 	},
 	{
@@ -1076,7 +1076,7 @@
 		"name": "Constants",
 		"scope": "constant",
 		"settings": {
-			"foreground": "#AE81FF"
+			"foreground": "#b68fff"
 		}
 	},
 	{
@@ -1121,8 +1121,8 @@
 		"name": "Attribute class",
 		"scope": "entity.other.attribute-name.class.css",
 		"settings": {
-			"foreground": "#F92672",
-			"fontStyle": "normal"
+			"foreground": "#effeb0",
+			"fontStyle": ""
 		}
 	},
 	{
