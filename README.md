@@ -3,14 +3,19 @@
 
 * Beauty and technologic
 * Elegant and fresh
-* Vivid and opaque colors
+* Vivid over opaque colors
 
-**The choose for those who likes build the future from their keyboards**
+### For those who likes code the future from their keyboards
+
+## Snapshots
 
 ![Imgur](https://i.imgur.com/w1t8YOy.png)
 [view outside](https://i.imgur.com/w1t8YOy.png)
 
-### Installation
+![Imgur](https://i.imgur.com/J9jjFfp.png)
+[view outside](https://i.imgur.com/J9jjFfp.png)
+
+## Installation
 1. Browse for your vscode extensions directory, then clone the project
 
     **If you're macOs or Linux user:**
@@ -29,6 +34,16 @@
 
 **Enjoy!**
 
+## Font Family
+Font used in snapshots is "Menlo Regular".
+You can [download here!](https://www.cufonfonts.com/font/menlo)
+
+**For use follow steps:**
+1. Press `Command + shift + p` combination
+2. Type: "Open Settings (JSON)"
+3. Add the rule: `"editor.fontFamily": "Menlo"`
+4. Save the file
+
 --
 
-**Developed with love by @diegoulloao :heartpulse:**
+**Developed by @diegoulloao for my Team :heartpulse:**
