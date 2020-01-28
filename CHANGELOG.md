@@ -1,9 +1,7 @@
 # Change Log
 
-All notable changes to the "emblr" extension will be documented in this file.
+**Details of versions features below:**
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [@v1]
 
-## [Unreleased]
-
-- Initial release
+- Dark theme for Ensambler®
