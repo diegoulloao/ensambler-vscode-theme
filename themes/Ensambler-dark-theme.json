@@ -249,7 +249,7 @@
 		//"debugExceptionWidget.background": "#420b0d",
 		//"debugExceptionWidget.border": "#a31515",
 
-		//"descriptionForeground": "#ccccccb3",
+		"descriptionForeground": "#666",
 
 		//"diffEditor.removedTextBackground": "#ff000033",
 
