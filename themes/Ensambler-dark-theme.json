@@ -13,6 +13,17 @@
 		"badge.foreground": "#2de0a7",
 
 
+
+		/**
+		*
+		*	Welcome page
+		*
+		*/
+		"welcomePage.background": "#0e1111",
+		"welcomePage.buttonBackground": "#0e1111",
+		"welcomePage.buttonHoverBackground": "#222",
+
+
 		/**
 		*
 		*	Colores de navegador de acciones al lado izquierdo del sidebar
@@ -62,10 +73,10 @@
 		*/
 		"breadcrumb.background": "#0e1111",
 		"breadcrumb.foreground": "#444",
-		"breadcrumb.focusForeground": "#f8f8f8",
+		"breadcrumb.focusForeground": "#fff",
 		"breadcrumb.activeSelectionForeground": "#fff",
 
-		"breadcrumbPicker.background": "#000",
+		"breadcrumbPicker.background": "#0e1111",
 
 
 		"badge.background": "#ff000000",
