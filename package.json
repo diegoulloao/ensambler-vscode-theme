@@ -1,8 +1,9 @@
 {
-    "name": "emblr",
-    "displayName": "Ensambler",
+    "name": "ensambler-vscode-theme",
+    "displayName": "Ensambler Theme",
     "description": "A beautiful vscode theme for Ensambler®",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "publisher": "diegoulloao",
     "engines": {
         "vscode": "^1.41.0"
     },
@@ -17,5 +18,9 @@
                 "path": "./themes/Ensambler-dark-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/diegoulloao/ensambler-vscode-theme.git"
     }
 }
