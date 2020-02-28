@@ -1,4 +1,7 @@
 # Ensambler Theme
+
+### * Now available at VSCode Marketplace!
+
 ## A beautiful vscode theme for Ensambler®
 
 * Beauty and technologic

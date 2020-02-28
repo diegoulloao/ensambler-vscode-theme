@@ -1,9 +1,10 @@
 {
     "name": "ensambler-vscode-theme",
-    "displayName": "Ensambler Theme",
+    "displayName": "Ensambler® Theme",
     "description": "A beautiful vscode theme for Ensambler®",
     "version": "1.0.0",
     "publisher": "diegoulloao",
+    "icon": "images/spellIcon.png",
     "engines": {
         "vscode": "^1.41.0"
     },
