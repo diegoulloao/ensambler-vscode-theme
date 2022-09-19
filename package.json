@@ -1,27 +1,27 @@
 {
-    "name": "ensambler-vscode-theme",
-    "displayName": "Ensambler® Theme",
-    "description": "A beautiful vscode theme for Ensambler®",
-    "version": "1.0.0",
-    "publisher": "diegoulloao",
-    "icon": "images/spellIcon.png",
-    "engines": {
-        "vscode": "^1.41.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Ensambler",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Ensambler-dark-theme.json"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/diegoulloao/ensambler-vscode-theme.git"
-    }
+  "name": "ensambler-vscode-theme",
+  "displayName": "Ensambler® Theme",
+  "description": "A beautiful vscode theme for Ensambler®",
+  "version": "1.0.1",
+  "publisher": "diegoulloao",
+  "icon": "images/spellIcon.png",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ensambler",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ensambler-dark-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoulloao/ensambler-vscode-theme.git"
+  }
 }
